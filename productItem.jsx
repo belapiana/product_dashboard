@@ -1,16 +1,14 @@
+import React from 'react';
 
-import productList from "./app"
-
-
-const ProductItem = ({productList}) => {
+const ProductItem = ({ product }) => {
   return (
     <li>
-      <h3>{productList.name}</h3>
-      <p>Price: ${productList.price}</p>
-      <p>{productList.description}</p>
+      <h3>{product.name}</h3>
+      <p>Price: ${product.price}</p>
+      <p>{product.description}</p>
     </li>
   );
 };
 
-
 export default ProductItem;
+
