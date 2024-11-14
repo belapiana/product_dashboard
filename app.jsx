@@ -1,5 +1,4 @@
 
-const root = "something"
 
 const productList = [
     {name: "Chocolate", price: 12, description: 'delicious'},
@@ -8,6 +7,4 @@ const productList = [
     {name: "Candy", price: 15, description:"colorful" }
     ];
 
-const listItems = productList.map((productList,i) => <li key={'product_' + i}>{productList.name}</li>);
-
-root.render(<ul>{listItems}</ul>)
+    export default productList ()
