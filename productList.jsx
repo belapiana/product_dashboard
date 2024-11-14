@@ -1,5 +1,4 @@
 import React from 'react';
-import ProductItem from './ProductItem';
 
 const ProductList = ({ productList }) => {
   const listItems = productList.map((product, i) => (

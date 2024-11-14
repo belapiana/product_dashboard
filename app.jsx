@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductList from './ProductList'
+
 
 const productList = [
   { name: "Chocolate", price: 12, description: 'delicious' },
