@@ -1,8 +1,10 @@
 import productList from "./app"
 
-const listItems = productList.map(
-    (productList,i) => 
-    <li key={'product_' + i}>
-    {productList.name} </li>);
+const list = ({ productList }) => {
+    const listItems = productList.map((product, i) => (
+      <productItem key={'product_' + i} product={product} />
+    ));
 
-root.render(<ul>{listItems}</ul>)
+return (
+<ul>{listItems} </ul> )
+}
